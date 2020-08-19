@@ -1,0 +1,27 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# skittles
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of skittles is to provide data on skittles taste testing - can people accurately assess flavour based on taste alone, while blindfolded?
+
+```{r read-skittles}
+library(readr)
+skittles <- read_csv("data/skittles.csv")
+
+skittles
+```
+
